@@ -1,11 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        Cheetah cheetah = new Cheetah("Cheetah",10);
-        Rabbit rabbit = new Rabbit("Rabbit", 4);
-        cheetah.method1();
-        cheetah.method2();
+        Cheetah.method1("Cheetah");
+        Cheetah.method2(10,"Cheetah");
 
-        rabbit.method1();
-        rabbit.method2();
+        Rabbit.method1("Rabbit");
+        Rabbit.method2(3,"Rabbit");
     }
 }
